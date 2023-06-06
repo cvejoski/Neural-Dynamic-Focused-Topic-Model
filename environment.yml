@@ -1,0 +1,48 @@
+name: drf
+channels:
+  - defaults
+  - conda-forge
+  # - pytorch
+
+dependencies:
+  - python
+  - pip
+  # - pytorch
+  # - torchtext
+  - nltk
+  - spacy
+  # - gpytorch
+  - networkx
+  - pandas
+  - numpy
+  - scipy
+  - pandas
+  - dask
+  - ipython
+  - tqdm
+  - click
+  - matplotlib
+  - seaborn
+  - altair
+  - statsmodels
+  - scikit-learn
+  - dill
+  - spacy
+  - seaborn
+  - simplejson
+  - pip:
+      - transformers
+      - sklearn
+      - sdeint
+
+  # for development only (could also be kept in a separate environment file)
+  - jupyterlab
+  - pytest
+  - pytest-cov
+  - tox
+  - pre_commit
+  - nbdime
+  - nbstripout
+  - sphinx
+  - recommonmark
+  - GitPython
