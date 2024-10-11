@@ -1,6 +1,6 @@
 # Neural Dynamic Focused Topic Model
 
-Code accompanying the paper **Neural Dynamic Focused Topic Model**.
+Code accompanying the paper: "Neural dynamic focused topic model." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 11. 2023.
 
 ## Installation of the library
 
